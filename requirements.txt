@@ -1,0 +1,5 @@
+presidio_analyzer
+opencv-python
+pytesseract
+click
+ffmpeg-python
