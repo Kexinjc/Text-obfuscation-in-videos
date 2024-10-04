@@ -31,7 +31,7 @@ $env:FFMPEG_PATH = 'C:\Program Files\ffmpeg\bin\ffmpeg.exe'
 
 4. Run the application
 ```bash
-python3 main.py
+python3 main2.py
 ```
 ## Introduction
 The rapid growth of audiovisual content on platforms like social media and streaming services has heightened privacy and data security concerns. Personal data, such as names and addresses, embedded in images and videos, can be unintentionally exposed, posing challenges, particularly in academic settings where regulations like GDPR apply. This is especially relevant in contexts such as tutorials and instructional videos created by educators, which may contain sensitive information, requiring careful handling to prevent privacy breaches.
