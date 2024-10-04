@@ -42,21 +42,21 @@ In this paper, we present a system combining Microsoft Presidio for text anonymi
 
 ## Flags
 
--i (input): This is a mandatory command that specifies the image or video file to be obfuscated.
+**-i **(input): This is a mandatory command that specifies the image or video file to be obfuscated.
 
--o (output): An optional command that defines the name of the output file. This file will be the result of the processing, containing the image or video with sensitive information anonymized.
+**-o **(output): An optional command that defines the name of the output file. This file will be the result of the processing, containing the image or video with sensitive information anonymized.
 
--r (recognizers): Allows the selection of specific recognizers to be used for detecting sensitive information, such as ID numbers, phone numbers, etc. If no recognizer is specified, the system will use all available recognizers by default.
+**-r **(recognizers): Allows the selection of specific recognizers to be used for detecting sensitive information, such as ID numbers, phone numbers, etc. If no recognizer is specified, the system will use all available recognizers by default.
 
--e (exclude): This parameter allows users to indicate the recognizers they want to exclude from the process. This is useful for personalizing the analysis and focusing on certain types of sensitive information while ignoring others.
+**-e **(exclude): This parameter allows users to indicate the recognizers they want to exclude from the process. This is useful for personalizing the analysis and focusing on certain types of sensitive information while ignoring others.
 
--f (filter): Used to obfuscate specific words that the user wants to protect. This option provides additional control over what information should be masked in the processed content.
+**-f** (filter): Used to obfuscate specific words that the user wants to protect. This option provides additional control over what information should be masked in the processed content.
 
--u (unfilter): Allows the de-obfuscation of words that were marked for obfuscation but which the user prefers not to hide in the final content.
+**-u** (unfilter): Allows the de-obfuscation of words that were marked for obfuscation but which the user prefers not to hide in the final content.
 
--v (verbose): Activates verbose mode, providing detailed information about the internal detection and anonymization process. This option is particularly useful for debugging and monitoring, allowing users to gain a deeper understanding of the system’s operation.
+**-v **(verbose): Activates verbose mode, providing detailed information about the internal detection and anonymization process. This option is particularly useful for debugging and monitoring, allowing users to gain a deeper understanding of the system’s operation.
 
--t (threshold): sets the threshold for reusing previous bounding boxes based on the percentage of change between frames.
+**-t **(threshold): sets the threshold for reusing previous bounding boxes based on the percentage of change between frames.
 
 # Text-obfuscation-in-videos
 # Text-obfuscation-in-videos
